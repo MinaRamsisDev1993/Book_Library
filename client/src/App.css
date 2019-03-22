@@ -1,0 +1,52 @@
+body {
+  background: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#book-list {
+  padding: 0;
+  width: 60%;
+}
+
+#book-list li {
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  border: 1px solid #880e4f;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #880e4f;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+}
+
+form .field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+form label {
+  text-align: right;
+}
+
+#book-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  background-color: #ad1457;
+  height: 100%;
+  color: #fff;
+  width: 40%;
+
+  /* overflow: auto; */
+}
